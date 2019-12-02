@@ -6,10 +6,10 @@ package com.fmg.user.controller;/**
  * @version 1.0.0
  **/
 
-import com.fmg.user.bean.UmsMember;
-import com.fmg.user.bean.UmsMemberLevel;
-import com.fmg.user.bean.UmsMemberReceiveAddress;
-import com.fmg.user.service.UserService;
+import com.fmg.gmall.bean.UmsMember;
+import com.fmg.gmall.bean.UmsMemberLevel;
+import com.fmg.gmall.bean.UmsMemberReceiveAddress;
+import com.fmg.gmall.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestBody;

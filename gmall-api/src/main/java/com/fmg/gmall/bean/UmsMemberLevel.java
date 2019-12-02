@@ -1,4 +1,4 @@
-package com.fmg.user.bean;/**
+package com.fmg.gmall.bean;/**
  * @className UmsMemberLevel
  * @description TODO
  * @author fmg

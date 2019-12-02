@@ -1,4 +1,7 @@
-package com.fmg.user.service.impl;/**
+package com.fmg.user.service.impl;
+
+
+/**
  * @className UserServiceImpl
  * @description TODO
  * @author fmg
@@ -6,13 +9,13 @@ package com.fmg.user.service.impl;/**
  * @version 1.0.0
  **/
 
-import com.fmg.user.bean.UmsMember;
-import com.fmg.user.bean.UmsMemberLevel;
-import com.fmg.user.bean.UmsMemberReceiveAddress;
+import com.fmg.gmall.bean.UmsMember;
+import com.fmg.gmall.bean.UmsMemberLevel;
+import com.fmg.gmall.bean.UmsMemberReceiveAddress;
+import com.fmg.gmall.service.UserService;
 import com.fmg.user.mapper.UmsMemberReceiveAddressMapper;
 import com.fmg.user.mapper.UserLevelMapper;
 import com.fmg.user.mapper.UserMapper;
-import com.fmg.user.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import tk.mybatis.mapper.entity.Example;

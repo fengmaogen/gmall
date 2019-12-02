@@ -1,6 +1,7 @@
 package com.fmg.user.mapper;
 
-import com.fmg.user.bean.UmsMember;
+
+import com.fmg.gmall.bean.UmsMember;
 
 import java.util.List;
 

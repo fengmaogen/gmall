@@ -1,6 +1,6 @@
 package com.fmg.user.mapper;
 
-import com.fmg.user.bean.UmsMemberReceiveAddress;
+import com.fmg.gmall.bean.UmsMemberReceiveAddress;
 import tk.mybatis.mapper.common.Mapper;
 
 /**

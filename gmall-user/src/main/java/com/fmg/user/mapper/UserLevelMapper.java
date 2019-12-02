@@ -1,10 +1,8 @@
 package com.fmg.user.mapper;
 
-import com.fmg.user.bean.UmsMember;
-import com.fmg.user.bean.UmsMemberLevel;
-import tk.mybatis.mapper.common.Mapper;
 
-import java.util.List;
+import com.fmg.gmall.bean.UmsMemberLevel;
+import tk.mybatis.mapper.common.Mapper;
 
 /**
  * @author fmg

@@ -1,25 +1,13 @@
-package com.fmg.user.bean;/**
- * @className UmsMember
- * @description TODO
- * @author fmg
- * @date 2019-11-25 12:54
- * @version 1.0.0
- **/
+package com.fmg.gmall.bean;
 
 import lombok.Data;
 
 import javax.persistence.Id;
+import java.io.Serializable;
 import java.util.Date;
 
-/**
- * @ClassName UmsMember
- * @Description TODO
- * @Author fmg
- * @Date 2019-11-25 12:54
- * @Version 1.0.0
- **/
 @Data
-public class UmsMember {
+public class UmsMember implements Serializable {
 
     @Id
     private String id;
