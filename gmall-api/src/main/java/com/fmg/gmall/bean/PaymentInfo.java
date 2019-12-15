@@ -31,7 +31,7 @@ public class PaymentInfo {
     private BigDecimal totalAmount;
 
     @Column
-    private String Subject;
+    private String subject;
 
     @Column
     private String paymentStatus;
