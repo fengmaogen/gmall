@@ -85,4 +85,45 @@ public class StreamOperatorTest {
                 .distinct()
                 .forEach(item -> System.out.println(JSON.toJSONString(item, true)));
     }
+
+    @Test
+    public void allMatchTest(){
+        boolean b = list.stream()
+                .allMatch(sku -> sku.getSkuTotalPrice() > 1);
+        System.out.println(JSON.toJSONString(b));
+
+    }
+
+    @Test
+    public void anyMatchTest(){
+        boolean b = list.stream()
+                .peek(sku -> System.out.println(sku.getSkuTotalPrice()))
+                .anyMatch(sku -> sku.getSkuTotalPrice() > 1000);
+
+        System.out.println(JSON.toJSONString(b));
+    }
+
+    @Test
+    public void noneMatchTest(){
+        boolean b = list.stream()
+                .peek(sku -> System.out.println(sku.getSkuTotalPrice()))
+                .noneMatch(sku -> sku.getSkuTotalPrice() > 1_000);
+
+        System.out.println(JSON.toJSONString(b));
+    }
+
+    @Test
+    public void firstTest(){
+        list.stream()
+                .peek(sku -> System.out.println(sku.getSkuName()))
+                .findFirst();
+
+    }
+    @Test
+    public void findAnyTest(){
+        list.stream()
+                .peek(sku -> System.out.println(sku.getSkuName()))
+                .findAny();
+
+    }
 }
