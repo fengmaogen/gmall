@@ -57,7 +57,8 @@ public class CopyFileTest {
         String targetUrl = "src/test/java/com/fmg/targetFile/CopyFileTest1.text";
 
         try (FileInputStream fileInputStream = new FileInputStream(orginalUrl);
-             FileOutputStream outputStream = new FileOutputStream(targetUrl);){
+             FileOutputStream outputStream = new FileOutputStream(targetUrl);
+             ){
 
             int line;
             while ((line =  fileInputStream.read()) != -1){
