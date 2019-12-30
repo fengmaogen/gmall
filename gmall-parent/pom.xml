@@ -38,6 +38,7 @@
         <jest.version>5.3.3</jest.version>
         <jna.version>4.5.1</jna.version>
         <beanUtils.version>1.9.3</beanUtils.version>
+        <swagger2.version>2.9.2</swagger2.version>
     </properties>
 
     <dependencyManagement>
@@ -142,6 +143,18 @@
                 <groupId>commons-beanutils</groupId>
                 <artifactId>commons-beanutils</artifactId>
                 <version>${beanUtils.version}</version>
+            </dependency>
+            <!-- https://mvnrepository.com/artifact/io.springfox/springfox-swagger2 -->
+            <dependency>
+                <groupId>io.springfox</groupId>
+                <artifactId>springfox-swagger2</artifactId>
+                <version>${swagger2.version}</version>
+            </dependency>
+            <!-- https://mvnrepository.com/artifact/io.springfox/springfox-swagger-ui -->
+            <dependency>
+                <groupId>io.springfox</groupId>
+                <artifactId>springfox-swagger-ui</artifactId>
+                <version>${swagger2.version}</version>
             </dependency>
 
 
